@@ -1,7 +1,7 @@
 {
   "name": "parse-path",
   "version": "3.0.1",
-  "description": "Parse paths (local paths, urls: /ssh/git/etc)",
+  "description": "Parse paths (local paths, urls: ssh/git/etc)",
   "main": "lib/index.js",
   "directories": {
     "example": "example",

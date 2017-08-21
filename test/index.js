@@ -2,7 +2,6 @@
 const parseUrl = require("../lib")
     , tester = require("tester")
     , qs = require("querystring")
-    , is = require("is-equal")
     ;
 
 const INPUTS = [
