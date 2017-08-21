@@ -2,10 +2,11 @@
 
 You can see below the API reference of this module.
 
-### `parseUrl(url)`
+### `parsePath(url)`
 Parses the input url.
 
 #### Params
+
 - **String** `url`: The input url.
 
 #### Return
@@ -19,4 +20,5 @@ Parses the input url.
  - `hash` (String): The url hash.
  - `search` (String): The url querystring value.
  - `href` (String): The input url.
+ - `query` (Object): The url querystring, parsed as object.
 

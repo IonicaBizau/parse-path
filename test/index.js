@@ -1,6 +1,8 @@
 // Dependencies
 const parseUrl = require("../lib")
     , tester = require("tester")
+    , qs = require("querystring")
+    , is = require("is-equal")
     ;
 
 const INPUTS = [
@@ -153,6 +155,7 @@ tester.describe("check urls", test => {
     INPUTS.forEach(function (c) {
         test.should("support " + c[0], () => {
             c[1].href = c[0];
+            c[1].query = qs.parse(c[1].search)
             test.expect(parseUrl(c[0])).toEqual(c[1]);
         });
     });
