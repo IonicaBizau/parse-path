@@ -1,6 +1,6 @@
 {
   "name": "parse-path",
-  "version": "3.0.1",
+  "version": "3.0.2",
   "description": "Parse paths (local paths, urls: ssh/git/etc)",
   "main": "lib/index.js",
   "directories": {
@@ -45,6 +45,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
