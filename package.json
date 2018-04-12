@@ -1,6 +1,6 @@
 {
   "name": "parse-path",
-  "version": "3.0.2",
+  "version": "3.0.3",
   "description": "Parse paths (local paths, urls: ssh/git/etc)",
   "main": "lib/index.js",
   "directories": {

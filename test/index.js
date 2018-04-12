@@ -19,6 +19,19 @@ const INPUTS = [
         }
     ]
   , [
+        "    http://ionicabizau.net/blog   "
+      , {
+            protocols: [ "http" ]
+          , protocol: "http"
+          , port: null
+          , resource: "ionicabizau.net"
+          , user: ""
+          , pathname: "/blog"
+          , hash: ""
+          , search: ""
+        }
+    ]
+  , [
         "//ionicabizau.net/foo.js"
       , {
             protocols: []
