@@ -160,7 +160,19 @@ const INPUTS = [
           , hash: ""
           , search: ""
         }
-    ]
+    ], [
+      "git@github.com:9IonicaBizau/git-stats.git"
+    , {
+          protocols: []
+        , protocol: "ssh"
+        , port: null
+        , resource: "github.com"
+        , user: "git"
+        , pathname: "/9IonicaBizau/git-stats.git"
+        , hash: ""
+        , search: ""
+      }
+  ]
 ];
 
 tester.describe("check urls", test => {
