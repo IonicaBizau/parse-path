@@ -32,19 +32,6 @@ const INPUTS = [
         }
     ]
   , [
-        "//ionicabizau.net/foo.js"
-      , {
-            protocols: []
-          , protocol: ""
-          , port: null
-          , resource: "ionicabizau.net"
-          , user: ""
-          , pathname: "/foo.js"
-          , hash: ""
-          , search: ""
-        }
-    ]
-  , [
         "http://domain.com/path/name?foo=bar&bar=42#some-hash"
       , {
             protocols: ["http"]
@@ -117,7 +104,7 @@ const INPUTS = [
           , port: null
           , resource: ""
           , user: ""
-          , pathname: "path/to/file.png"
+          , pathname: "./path/to/file.png"
           , hash: ""
           , search: ""
         }
@@ -130,7 +117,7 @@ const INPUTS = [
           , port: null
           , resource: ""
           , user: ""
-          , pathname: ".path/to/file.png"
+          , pathname: "./.path/to/file.png"
           , hash: ""
           , search: ""
         }
