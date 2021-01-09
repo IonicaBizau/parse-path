@@ -226,16 +226,33 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@semantic-release/gitlab`
  - `@hawkingnetwork/react-native-tab-view`
  - `eleventy-plugin-embed-soundcloud`
+ - `eleventy-plugin-embed-twitter`
  - `tria-prima`
  - `react-fsm-router`
  - `@tjoussen/semantic-release-gitlab-mr`
  - `@devdiary/semantic-devdiary-release`
  - `semantic-release-gitlab-plugin`
- - `electron-info`
  - `reddit-title-has-verbatim-quote`
  - `@apardellass/react-native-audio-stream`
  - `l2forlerna`
  - `react-native-plugpag-wrapper`
+ - `@alphy11/semantic-release-gitlab`
+ - `react-native-pulsator-native`
+ - `react-native-kakao-maps`
+ - `@geeky-apo/react-native-advanced-clipboard`
+ - `native-apple-login`
+ - `native-google-login`
+ - `native-kakao-login`
+ - `@hemith/react-native-tnk`
+ - `react-native-contact-list`
+ - `@corelmax/react-native-my2c2p-sdk`
+ - `@cloudoki/donderflow`
+ - `electron-info`
+ - `@tru_id/tru-sdk-react-native`
+ - `@datalogic/react-native-datalogic-module`
+ - `react-native-responsive-size`
+ - `react-native-flyy`
+ - `react-native-esc-pos-sahaab`
 
 
 
