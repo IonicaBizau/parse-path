@@ -159,6 +159,18 @@ const INPUTS = [
         , hash: ""
         , search: ""
       }
+    ], [
+      "https://attacker.com\\@example.com"
+    , {
+          protocols: ["https"]
+        , protocol: "https"
+        , port: null
+        , resource: "attacker.com"
+        , user: ""
+        , pathname: "/@example.com"
+        , hash: ""
+        , search: ""
+      }
   ]
 ];
 
