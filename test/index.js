@@ -160,6 +160,18 @@ const INPUTS = [
         , search: ""
       }
     ], [
+      "git@github.com:0xABC/git-stats.git"
+    , {
+          protocols: []
+        , protocol: "ssh"
+        , port: null
+        , resource: "github.com"
+        , user: "git"
+        , pathname: "/0xABC/git-stats.git"
+        , hash: ""
+        , search: ""
+      }
+    ], [
       "https://attacker.com\\@example.com"
     , {
           protocols: ["https"]
