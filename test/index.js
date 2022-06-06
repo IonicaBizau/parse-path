@@ -183,13 +183,25 @@ const INPUTS = [
         , hash: ""
         , search: ""
       }
+  ], [
+      "jav\r\nascript://%0aalert(1)"
+    , {
+          protocols: ["javascript"]
+        , protocol: "javascript"
+        , port: null
+        , resource: "%0aalert(1)"
+        , user: ""
+        , pathname: ""
+        , hash: ""
+        , search: ""
+      }
   ]
 ];
 
 tester.describe("check urls", test => {
     INPUTS.forEach(function (c) {
         test.should("support " + c[0], () => {
-            c[1].href = c[0].trim();
+            c[1].href = c[0].trim().replace(/\r?\n|\r/gm, "");
             c[1].query = qs.parse(c[1].search)
             test.expect(parseUrl(c[0])).toEqual(c[1]);
         });
