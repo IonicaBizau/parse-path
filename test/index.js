@@ -233,7 +233,7 @@ tester.describe("check urls", test => {
     INPUTS.forEach(function (c) {
         test.should("support " + c[0], () => {
             const cParsed = parseUrl(c[0])
-            debugger
+            c[1].password = c[1].password || ""
             test.expect(cParsed).toEqual(c[1]);
         });
     });
