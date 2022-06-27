@@ -78,48 +78,49 @@ yarn add parse-path
 const parsePath = require("parse-path")
 
 console.log(parsePath("http://ionicabizau.net/blog"))
-// { protocols: [ 'http' ],
+// {
+//   protocols: [ 'http' ],
 //   protocol: 'http',
-//   port: null,
+//   port: '',
 //   resource: 'ionicabizau.net',
 //   user: '',
+//   password: '',
 //   pathname: '/blog',
 //   hash: '',
 //   search: '',
-//   href: 'http://ionicabizau.net/blog' }
+//   href: 'http://ionicabizau.net/blog',
+//   query: {}
+// }
 
 console.log(parsePath("http://domain.com/path/name?foo=bar&bar=42#some-hash"))
-// { protocols: [ 'http' ],
+// {
+//   protocols: [ 'http' ],
 //   protocol: 'http',
-//   port: null,
+//   port: '',
 //   resource: 'domain.com',
 //   user: '',
+//   password: '',
 //   pathname: '/path/name',
 //   hash: 'some-hash',
 //   search: 'foo=bar&bar=42',
-//   href: 'http://domain.com/path/name?foo=bar&bar=42#some-hash' }
+//   href: 'http://domain.com/path/name?foo=bar&bar=42#some-hash',
+//   query: { foo: 'bar', bar: '42' }
+// }
 
 console.log(parsePath("git+ssh://git@host.xz/path/name.git"))
-// { protocols: [ 'git', 'ssh' ],
+// {
+//   protocols: [ 'git', 'ssh' ],
 //   protocol: 'git',
-//   port: null,
+//   port: '',
 //   resource: 'host.xz',
 //   user: 'git',
+//   password: '',
 //   pathname: '/path/name.git',
 //   hash: '',
 //   search: '',
-//   href: 'git+ssh://git@host.xz/path/name.git' }
-
-console.log(parsePath("git@github.com:IonicaBizau/git-stats.git"))
-// { protocols: [],
-//   protocol: 'ssh',
-//   port: null,
-//   resource: 'github.com',
-//   user: 'git',
-//   pathname: '/IonicaBizau/git-stats.git',
-//   hash: '',
-//   search: '',
-//   href: 'git@github.com:IonicaBizau/git-stats.git' }
+//   href: 'git+ssh://git@host.xz/path/name.git',
+//   query: {}
+// }
 ```
 
 
@@ -158,16 +159,17 @@ Parses the input url.
 
 #### Return
 - **Object** An object containing the following fields:
- - `protocols` (Array): An array with the url protocols (usually it has one element).
- - `protocol` (String): The first protocol, `"ssh"` (if the url is a ssh url) or `"file"`.
- - `port` (null|Number): The domain port.
- - `resource` (String): The url domain (including subdomains).
- - `user` (String): The authentication user (usually for ssh urls).
- - `pathname` (String): The url pathname.
- - `hash` (String): The url hash.
- - `search` (String): The url querystring value.
- - `href` (String): The input url.
- - `query` (Object): The url querystring, parsed as object.
+   - `protocols` (Array): An array with the url protocols (usually it has one element).
+   - `protocol` (String): The first protocol or `"file"`.
+   - `port` (String): The domain port (default: `""`).
+   - `resource` (String): The url domain (including subdomain and port).
+   - `user` (String): The authentication user (default: `""`).
+   - `password` (String): The authentication password (default: `""`).
+   - `pathname` (String): The url pathname.
+   - `hash` (String): The url hash.
+   - `search` (String): The url querystring value (excluding `?`).
+   - `href` (String): The normalized input url.
+   - `query` (Object): The url querystring, parsed as object.
 
 
 
@@ -228,39 +230,36 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `eleventy-plugin-embed-soundcloud`
  - `@enkeledi/react-native-week-month-date-picker`
  - `@hemith/react-native-tnk`
- - `npm_one_1_2_3`
  - `native-kakao-login`
- - `rn-adyen-dropin`
+ - `npm_one_1_2_3`
  - `react-fsm-router`
- - `react-native-contact-list`
- - `react-native-biometric-authenticate`
  - `react-native-arunmeena1987`
+ - `react-native-biometric-authenticate`
+ - `react-native-contact-list`
  - `react-native-is7`
+ - `react-native-payu-payment-testing`
  - `react-native-kakao-maps`
  - `react-native-my-first-try-arun-ramya`
- - `react-native-payu-payment-testing`
  - `react-native-ytximkit`
+ - `rn-adyen-dropin`
  - `tria-prima`
  - `sm-versioning`
+ - `@positionex/position-sdk`
  - `@corelmax/react-native-my2c2p-sdk`
- - `@datalogic/react-native-datalogic-module`
  - `@felipesimmi/react-native-datalogic-module`
  - `@hawkingnetwork/react-native-tab-view`
  - `drowl-base-theme-iconset`
  - `native-apple-login`
  - `react-native-cplus`
  - `npm_qwerty`
- - `react-native-arunjeyam1987`
  - `react-native-bubble-chart`
+ - `react-native-arunjeyam1987`
  - `react-native-flyy`
- - `@alphy11/semantic-release-gitlab`
- - `@apardellass/react-native-audio-stream`
- - `@fgreinacher/semantic-release-gitlab`
- - `@geeky-apo/react-native-advanced-clipboard`
- - `@j4s0n/semantic-release-gitlab`
  - `@saad27/react-native-bottom-tab-tour`
  - `@xudong/semantic-release-gitlab`
  - `candlelabssdk`
+ - `@fgreinacher/semantic-release-gitlab`
+ - `@geeky-apo/react-native-advanced-clipboard`
  - `react-native-dsphoto-module`
  - `react-native-responsive-size`
  - `react-native-sayhello-module`
@@ -271,21 +270,22 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `payutesting`
  - `semantic-release-gitee`
  - `semantic-release-gitlab-plugin`
- - `@pvm/github`
  - `@pvm/plugin-conventional-changelog`
- - `@devdiary/semantic-devdiary-release`
- - `birken-react-native-community-image-editor`
- - `luojia-cli-dev`
+ - `@pvm/github`
+ - `@con-test/react-native-concent-common`
  - `reac-native-arun-ramya-test`
- - `react-native-plugpag-wrapper`
- - `react-native-pulsator-native`
  - `react-native-arun-ramya-test`
  - `react-native-arunramya151`
+ - `react-native-plugpag-wrapper`
+ - `react-native-pulsator-native`
  - `react-native-transtracker-library`
  - `semantic-release-version`
+ - `@devdiary/semantic-devdiary-release`
+ - `luojia-cli-dev`
+ - `birken-react-native-community-image-editor`
  - `@screeb/react-native`
- - `@cloudoki/donderflow`
  - `@buganto/client`
+ - `@cloudoki/donderflow`
  - `@tjoussen/semantic-release-gitlab-mr`
  - `astra-ufo-sdk`
  - `react-native-syan-photo-picker`
@@ -294,11 +294,12 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `l2forlerna`
  - `native-google-login`
  - `raact-native-arunramya151`
+ - `react-native-modal-progress-bar`
  - `react-native-test-module-hhh`
  - `reddit-title-has-verbatim-quote`
+ - `react-native-jsi-device-info`
  - `react-native-badge-control`
  - `rn-tm-notify`
- - `react-native-jsi-device-info`
 
 
 

@@ -20,6 +20,21 @@ const INPUTS = [
         }
     ]
   , [
+        "http://subdomain.ionicabizau.net/blog"
+      , {
+            protocols: [ "http" ]
+          , protocol: "http"
+          , port: ""
+          , resource: "subdomain.ionicabizau.net"
+          , user: ""
+          , pathname: "/blog"
+          , hash: ""
+          , search: ""
+          , href: "http://subdomain.ionicabizau.net/blog"
+          , query: {}
+        }
+    ]
+  , [
         "    http://ionicabizau.net/blog   "
       , {
             protocols: [ "http" ]
