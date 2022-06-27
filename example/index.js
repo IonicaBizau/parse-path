@@ -2,45 +2,46 @@
 const parsePath = require("../lib")
 
 console.log(parsePath("http://ionicabizau.net/blog"))
-// { protocols: [ 'http' ],
+// {
+//   protocols: [ 'http' ],
 //   protocol: 'http',
-//   port: null,
+//   port: '',
 //   resource: 'ionicabizau.net',
 //   user: '',
+//   password: '',
 //   pathname: '/blog',
 //   hash: '',
 //   search: '',
-//   href: 'http://ionicabizau.net/blog' }
+//   href: 'http://ionicabizau.net/blog',
+//   query: {}
+// }
 
 console.log(parsePath("http://domain.com/path/name?foo=bar&bar=42#some-hash"))
-// { protocols: [ 'http' ],
+// {
+//   protocols: [ 'http' ],
 //   protocol: 'http',
-//   port: null,
+//   port: '',
 //   resource: 'domain.com',
 //   user: '',
+//   password: '',
 //   pathname: '/path/name',
 //   hash: 'some-hash',
 //   search: 'foo=bar&bar=42',
-//   href: 'http://domain.com/path/name?foo=bar&bar=42#some-hash' }
+//   href: 'http://domain.com/path/name?foo=bar&bar=42#some-hash',
+//   query: { foo: 'bar', bar: '42' }
+// }
 
 console.log(parsePath("git+ssh://git@host.xz/path/name.git"))
-// { protocols: [ 'git', 'ssh' ],
+// {
+//   protocols: [ 'git', 'ssh' ],
 //   protocol: 'git',
-//   port: null,
+//   port: '',
 //   resource: 'host.xz',
 //   user: 'git',
+//   password: '',
 //   pathname: '/path/name.git',
 //   hash: '',
 //   search: '',
-//   href: 'git+ssh://git@host.xz/path/name.git' }
-
-console.log(parsePath("git@github.com:IonicaBizau/git-stats.git"))
-// { protocols: [],
-//   protocol: 'ssh',
-//   port: null,
-//   resource: 'github.com',
-//   user: 'git',
-//   pathname: '/IonicaBizau/git-stats.git',
-//   hash: '',
-//   search: '',
-//   href: 'git@github.com:IonicaBizau/git-stats.git' }
+//   href: 'git+ssh://git@host.xz/path/name.git',
+//   query: {}
+// }
