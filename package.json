@@ -1,6 +1,6 @@
 {
   "name": "parse-path",
-  "version": "4.0.4",
+  "version": "5.0.0",
   "description": "Parse paths (local paths, urls: ssh/git/etc)",
   "main": "lib/index.js",
   "directories": {
@@ -32,10 +32,7 @@
     "tester": "^1.3.1"
   },
   "dependencies": {
-    "is-ssh": "^1.3.0",
-    "protocols": "^1.4.0",
-    "qs": "^6.9.4",
-    "query-string": "^6.13.8"
+    "protocols": "^2.0.0"
   },
   "files": [
     "bin/",
