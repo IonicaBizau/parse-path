@@ -14,7 +14,8 @@ Parses the input url.
    - `protocols` (Array): An array with the url protocols (usually it has one element).
    - `protocol` (String): The first protocol or `"file"`.
    - `port` (String): The domain port (default: `""`).
-   - `resource` (String): The url domain (including subdomain and port).
+   - `resource` (String): The url domain/hostname.
+   - `host` (String): The url domain (including subdomain and port).
    - `user` (String): The authentication user (default: `""`).
    - `password` (String): The authentication password (default: `""`).
    - `pathname` (String): The url pathname.

@@ -162,7 +162,8 @@ Parses the input url.
    - `protocols` (Array): An array with the url protocols (usually it has one element).
    - `protocol` (String): The first protocol or `"file"`.
    - `port` (String): The domain port (default: `""`).
-   - `resource` (String): The url domain (including subdomain and port).
+   - `resource` (String): The url domain/hostname.
+   - `host` (String): The url domain (including subdomain and port).
    - `user` (String): The authentication user (default: `""`).
    - `password` (String): The authentication password (default: `""`).
    - `pathname` (String): The url pathname.
@@ -225,26 +226,26 @@ Thanks! :heart:
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
  - `parse-url`
- - `@semantic-release/gitlab`
  - `@pvm/gitlab`
- - `eleventy-plugin-embed-soundcloud`
  - `@enkeledi/react-native-week-month-date-picker`
+ - `eleventy-plugin-embed-soundcloud`
  - `@hemith/react-native-tnk`
  - `native-kakao-login`
+ - `react-native-my-first-try-arun-ramya`
+ - `react-native-kakao-maps`
+ - `react-native-is7`
+ - `react-native-ytximkit`
+ - `react-native-payu-payment-testing`
  - `npm_one_1_2_3`
  - `react-fsm-router`
- - `react-native-arunmeena1987`
  - `react-native-biometric-authenticate`
+ - `react-native-arunmeena1987`
  - `react-native-contact-list`
- - `react-native-is7`
- - `react-native-payu-payment-testing`
- - `react-native-kakao-maps`
- - `react-native-my-first-try-arun-ramya`
- - `react-native-ytximkit`
  - `rn-adyen-dropin`
  - `tria-prima`
  - `sm-versioning`
  - `@positionex/position-sdk`
+ - `@okayhq/backstage-backend-plugin`
  - `@corelmax/react-native-my2c2p-sdk`
  - `@felipesimmi/react-native-datalogic-module`
  - `@hawkingnetwork/react-native-tab-view`
@@ -252,53 +253,55 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `native-apple-login`
  - `react-native-cplus`
  - `npm_qwerty`
- - `react-native-bubble-chart`
  - `react-native-arunjeyam1987`
+ - `react-native-bubble-chart`
  - `react-native-flyy`
- - `@saad27/react-native-bottom-tab-tour`
- - `@xudong/semantic-release-gitlab`
- - `candlelabssdk`
+ - `@alphy11/semantic-release-gitlab`
+ - `@apardellass/react-native-audio-stream`
  - `@fgreinacher/semantic-release-gitlab`
  - `@geeky-apo/react-native-advanced-clipboard`
- - `react-native-dsphoto-module`
- - `react-native-responsive-size`
- - `react-native-sayhello-module`
- - `@flareapp/ignition-ui`
+ - `@j4s0n/semantic-release-gitlab`
  - `react-feedback-sdk`
  - `npm_one_12_34_1_`
  - `npm_one_2_2`
+ - `react-native-responsive-size`
+ - `react-native-sayhello-module`
+ - `react-native-dsphoto-module`
  - `payutesting`
+ - `@flareapp/ignition-ui`
  - `semantic-release-gitee`
  - `semantic-release-gitlab-plugin`
- - `@pvm/plugin-conventional-changelog`
- - `@pvm/github`
  - `@con-test/react-native-concent-common`
+ - `@pvm/github`
+ - `@pvm/plugin-conventional-changelog`
+ - `react-native-shekhar-bridge-test`
+ - `@devdiary/semantic-devdiary-release`
+ - `birken-react-native-community-image-editor`
+ - `luojia-cli-dev`
  - `reac-native-arun-ramya-test`
+ - `react-native-transtracker-library`
+ - `react-native-pulsator-native`
  - `react-native-arun-ramya-test`
  - `react-native-arunramya151`
  - `react-native-plugpag-wrapper`
- - `react-native-pulsator-native`
- - `react-native-transtracker-library`
  - `semantic-release-version`
- - `@devdiary/semantic-devdiary-release`
- - `luojia-cli-dev`
- - `birken-react-native-community-image-editor`
  - `@screeb/react-native`
- - `@buganto/client`
- - `@cloudoki/donderflow`
+ - `@jfilipe-sparta/react-native-module_2`
  - `@tjoussen/semantic-release-gitlab-mr`
+ - `@buganto/client`
  - `astra-ufo-sdk`
  - `react-native-syan-photo-picker`
  - `@wecraftapps/react-native-use-keyboard`
- - `electron-info`
  - `l2forlerna`
  - `native-google-login`
- - `raact-native-arunramya151`
  - `react-native-modal-progress-bar`
  - `react-native-test-module-hhh`
+ - `raact-native-arunramya151`
  - `reddit-title-has-verbatim-quote`
  - `react-native-jsi-device-info`
  - `react-native-badge-control`
+ - `native-date-picker-module`
+ - `styless-react`
  - `rn-tm-notify`
 
 
