@@ -241,6 +241,20 @@ const INPUTS = [
         , query: {}
         , search: ""
       }
+  ], [
+      "https://github.com:89/org/repo.git"
+    , {
+          protocols: ["https"]
+        , protocol: "https"
+        , port: "89"
+        , resource: "github.com"
+        , user: ""
+        , pathname: "/org/repo.git"
+        , hash: ""
+        , href: "https://github.com:89/org/repo.git"
+        , query: {}
+        , search: ""
+      }
   ]
 ];
 
