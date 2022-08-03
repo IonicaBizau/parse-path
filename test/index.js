@@ -18,6 +18,7 @@ const INPUTS = [
           , search: ""
           , href: "http://ionicabizau.net/blog"
           , query: {}
+          , parse_failed: false
         }
     ]
   , [
@@ -34,6 +35,7 @@ const INPUTS = [
           , search: ""
           , href: "http://subdomain.ionicabizau.net/blog"
           , query: {}
+          , parse_failed: false
         }
     ]
   , [
@@ -50,6 +52,7 @@ const INPUTS = [
           , search: ""
           , href: "http://ionicabizau.net/blog"
           , query: {}
+          , parse_failed: false
         }
     ]
   , [
@@ -65,6 +68,7 @@ const INPUTS = [
           , hash: "some-hash"
           , search: "foo=bar&bar=42"
           , query: { foo: "bar", bar: "42" }
+          , parse_failed: false
           , href: "http://domain.com/path/name?foo=bar&bar=42#some-hash"
         }
     ]
@@ -81,6 +85,7 @@ const INPUTS = [
           , hash: "some-hash?foo=bar&bar=42"
           , search: ""
           , query: {}
+          , parse_failed: false
           , href: "http://domain.com/path/name#some-hash?foo=bar&bar=42"
         }
     ]
@@ -97,6 +102,7 @@ const INPUTS = [
           , hash: ""
           , search: ""
           , query: {}
+          , parse_failed: false
           , href: "git+ssh://git@host.xz/path/name.git"
         }
     ]
@@ -115,6 +121,7 @@ const INPUTS = [
           , hash: ""
           , search: ""
           , query: {}
+          , parse_failed: true
           , href: "git@github.com:IonicaBizau/git-stats.git"
         }
     ]
@@ -131,6 +138,7 @@ const INPUTS = [
           , hash: ""
           , search: ""
           , query: {}
+          , parse_failed: true
           , href: "/path/to/file.png"
         }
     ]
@@ -147,6 +155,7 @@ const INPUTS = [
           , hash: ""
           , search: ""
           , query: {}
+          , parse_failed: true
           , href: "./path/to/file.png"
         }
     ]
@@ -163,6 +172,7 @@ const INPUTS = [
           , hash: ""
           , search: ""
           , query: {}
+          , parse_failed: true
           , href: "./.path/to/file.png"
         }
     ]
@@ -179,6 +189,7 @@ const INPUTS = [
           , hash: ""
           , search: ""
           , query: {}
+          , parse_failed: true
           , href: ".path/to/file.png"
         }
     ]
@@ -195,6 +206,7 @@ const INPUTS = [
           , hash: ""
           , search: ""
           , query: {}
+          , parse_failed: true
           , href: "path/to/file.png"
         }
     ], [
@@ -210,6 +222,7 @@ const INPUTS = [
         , hash: ""
         , search: ""
         , query: {}
+        , parse_failed: true
         , href: "git@github.com:9IonicaBizau/git-stats.git"
       }
     ], [
@@ -225,6 +238,7 @@ const INPUTS = [
         , hash: ""
         , search: ""
         , query: {}
+        , parse_failed: true
         , href: "git@github.com:0xABC/git-stats.git"
       }
     ], [
@@ -241,6 +255,7 @@ const INPUTS = [
         , search: ""
         , href: "https://attacker.com/@example.com"
         , query: {}
+        , parse_failed: false
       }
   ], [
       "jav\r\nascript://%0aalert(1)"
@@ -255,6 +270,7 @@ const INPUTS = [
         , hash: ""
         , href: "javascript://%0aalert(1)"
         , query: {}
+        , parse_failed: false
         , search: ""
       }
   ], [
@@ -270,6 +286,7 @@ const INPUTS = [
         , hash: ""
         , href: "https://github.com:89/org/repo.git"
         , query: {}
+        , parse_failed: false
         , search: ""
       }
   ]
