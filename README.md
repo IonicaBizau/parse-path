@@ -171,6 +171,7 @@ Parses the input url.
    - `search` (String): The url querystring value (excluding `?`).
    - `href` (String): The normalized input url.
    - `query` (Object): The url querystring, parsed as object.
+   - `parse_failed` (Boolean): Whether the parsing failed or not.
 
 
 
@@ -261,48 +262,52 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@fgreinacher/semantic-release-gitlab`
  - `@geeky-apo/react-native-advanced-clipboard`
  - `@j4s0n/semantic-release-gitlab`
- - `react-feedback-sdk`
+ - `@saad27/react-native-bottom-tab-tour`
+ - `@xudong/semantic-release-gitlab`
+ - `candlelabssdk`
  - `npm_one_12_34_1_`
  - `npm_one_2_2`
- - `react-native-responsive-size`
- - `react-native-sayhello-module`
- - `react-native-dsphoto-module`
  - `payutesting`
+ - `react-native-dsphoto-module`
+ - `react-native-sayhello-module`
+ - `react-native-responsive-size`
  - `@flareapp/ignition-ui`
  - `semantic-release-gitee`
  - `semantic-release-gitlab-plugin`
  - `@con-test/react-native-concent-common`
+ - `react-native-shekhar-bridge-test`
  - `@pvm/github`
  - `@pvm/plugin-conventional-changelog`
- - `react-native-shekhar-bridge-test`
- - `@devdiary/semantic-devdiary-release`
- - `birken-react-native-community-image-editor`
+ - `react-feedback-sdk`
  - `luojia-cli-dev`
+ - `birken-react-native-community-image-editor`
+ - `@devdiary/semantic-devdiary-release`
  - `reac-native-arun-ramya-test`
- - `react-native-transtracker-library`
- - `react-native-pulsator-native`
  - `react-native-arun-ramya-test`
  - `react-native-arunramya151`
+ - `react-native-pulsator-native`
  - `react-native-plugpag-wrapper`
+ - `react-native-transtracker-library`
  - `semantic-release-version`
  - `@screeb/react-native`
  - `@jfilipe-sparta/react-native-module_2`
  - `@tjoussen/semantic-release-gitlab-mr`
  - `@buganto/client`
- - `astra-ufo-sdk`
+ - `@cloudoki/donderflow`
  - `react-native-syan-photo-picker`
  - `@wecraftapps/react-native-use-keyboard`
+ - `astra-ufo-sdk`
  - `l2forlerna`
  - `native-google-login`
- - `react-native-modal-progress-bar`
- - `react-native-test-module-hhh`
  - `raact-native-arunramya151`
  - `reddit-title-has-verbatim-quote`
- - `react-native-jsi-device-info`
+ - `react-native-modal-progress-bar`
+ - `react-native-test-module-hhh`
  - `react-native-badge-control`
- - `native-date-picker-module`
+ - `react-native-jsi-device-info`
  - `styless-react`
  - `rn-tm-notify`
+ - `native-date-picker-module`
 
 
 

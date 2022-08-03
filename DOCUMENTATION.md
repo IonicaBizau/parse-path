@@ -23,4 +23,5 @@ Parses the input url.
    - `search` (String): The url querystring value (excluding `?`).
    - `href` (String): The normalized input url.
    - `query` (Object): The url querystring, parsed as object.
+   - `parse_failed` (Boolean): Whether the parsing failed or not.
 
