@@ -1,6 +1,6 @@
 {
   "name": "parse-path",
-  "version": "7.0.0",
+  "version": "7.0.1",
   "description": "Parse paths (local paths, urls: ssh/git/etc)",
   "main": "lib/index.js",
   "directories": {
@@ -45,6 +45,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
