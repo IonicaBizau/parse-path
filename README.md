@@ -133,23 +133,6 @@ console.log(parsePath("git+ssh://git@host.xz/path/name.git"))
 
 
 
-
-## :question: Get Help
-
-There are few ways to get help:
-
-
-
- 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
- 2. For bug reports and feature requests, open issues. :bug:
- 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
-
-
-
-
-
-
-
 ## :memo: Documentation
 
 
@@ -175,6 +158,24 @@ Parses the input url.
    - `href` (String): The normalized input url.
    - `query` (Object): The url querystring, parsed as object.
    - `parse_failed` (Boolean): Whether the parsing failed or not.
+
+
+
+
+
+
+
+
+
+## :question: Get Help
+
+There are few ways to get help:
+
+
+
+ 1. Please [post questions on Stack Overflow](https://stackoverflow.com/questions/ask). You can open issues with questions, as long you add a link to your Stack Overflow question.
+ 2. For bug reports and feature requests, open issues. :bug:
+ 3. For direct and quick help, you can [use Codementor](https://www.codementor.io/johnnyb). :rocket:
 
 
 
@@ -235,11 +236,14 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@adamsalm/gitlab`
  - `@adatechnology/react-native-android-getnet-pos`
  - `@adembacaj/react-native-google-pay`
+ - `@ahmed_shaban123/react-native-currencyinput`
  - `@ali5049/react-native-buttons`
  - `@alphy11/semantic-release-gitlab`
  - `@amirdiafi/react-native-ios-haptics`
  - `@amiruldev/wajs`
  - `@apardellass/react-native-audio-stream`
+ - `@aruntestpayment/react-native-payu-payment`
+ - `@aviinash_jha/react-native-test_multiply`
  - `@aysea/react-native-ui-library`
  - `@azalpacir/react-native-dhp-printer`
  - `@brantalikp/rn-resize`
@@ -251,12 +255,13 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@cs6/react-native-test-native-view-library`
  - `@damruravihara/react-native-testing-package`
  - `@devdiary/semantic-devdiary-release`
- - `@drakedeatonuk/rschedule`
  - `@enkeledi/react-native-week-month-date-picker`
+ - `@extrieve_technologies/quickcapture_react_native`
  - `@felipesimmi/react-native-datalogic-module`
  - `@fgreinacher/semantic-release-gitlab`
  - `@flareapp/ignition-ui`
  - `@geeky-apo/react-native-advanced-clipboard`
+ - `@happy-gastro/react-native-printer-module`
  - `@hawkingnetwork/react-native-tab-view`
  - `@hbglobal/react-native-actions-shortcuts`
  - `@hemith/react-native-tnk`
@@ -274,8 +279,10 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@oiti/rn-liveness2d`
  - `@okayhq/backstage-backend-plugin`
  - `@orgbluetooth/react-native-arunpayupayment`
+ - `@orgbluetooth/react-native-payupayment`
  - `@parallelnft/web3modal`
  - `@podpodium/common`
+ - `@ponchodien/react-native-printer-imin`
  - `@positionex/position-sdk`
  - `@praella/localisationist`
  - `@pvm/github`
@@ -288,12 +295,16 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `@sidghimire/react-native-mapbox-navigation`
  - `@sridharetikala/react-native-rn-lib-custom-components`
  - `@status-im/react-native-transparent-video`
+ - `@syedt/hellosdk`
+ - `@taingo97/react-native-awesome-module`
  - `@taingo97/react-native-bluetooth-xprinter`
  - `@taingo97/react-native-expo-key-rsa-kt`
+ - `@taingo97/react-native-expo-rsa`
  - `@taingo97/react-native-generate-key-rsa`
  - `@taingo97/react-native-key-rsa`
  - `@taingo97/react-native-print-xprinter`
  - `@taingo97/react-native-printer-imin`
+ - `@taingo97/react-native-rsa`
  - `@taingo97/react-native-rsa-expo`
  - `@taingo97/react-native-sunmi-printer`
  - `@taingo97/react-native-telpo-printer`
@@ -318,10 +329,13 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `birken-react-native-community-image-editor`
  - `candlelabssdk`
  - `checkbox-component`
+ - `connex-kakilang`
  - `connex_ram00nez`
  - `demo-test-scrn`
  - `design-system-trial-milyasbpa`
  - `dogandev-simple-toast`
+ - `domaincomponent`
+ - `expo-renavigate`
  - `fawaterak-online-payment`
  - `fawatrak-online-payment`
  - `fixed_form_builder`
@@ -344,6 +358,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `jordy-frijters-test-lib`
  - `jrennsoh88-react-native-scroll-indicator`
  - `khaled-salem-custom-components`
+ - `knex-paginate-transaction`
  - `l2forlerna`
  - `load-object`
  - `loast`
@@ -360,6 +375,8 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `npm_one_2_2`
  - `npm_qwerty`
  - `nuxtpaginations`
+ - `octopulse`
+ - `ori-bot-react-native`
  - `parse-url`
  - `patepangdeui`
  - `payutesting`
@@ -374,6 +391,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `react-native-addition`
  - `react-native-android-native-view`
  - `react-native-android-video-player-view`
+ - `react-native-android-view`
  - `react-native-animate-text`
  - `react-native-app-bubble`
  - `react-native-app-integrity-checksum`
@@ -408,8 +426,10 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `react-native-cplus`
  - `react-native-create-video-thumbnail`
  - `react-native-ctp-odp`
+ - `react-native-custom-image-carousel`
  - `react-native-custom-poccomponent`
  - `react-native-custom-poccomponent-next`
+ - `react-native-custome-component-demo`
  - `react-native-datacapture-core`
  - `react-native-dff-components-demo`
  - `react-native-dhp-printer`
@@ -418,9 +438,10 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `react-native-dummy-view`
  - `react-native-escape`
  - `react-native-fedlight-dsm`
- - `react-native-flyy`
+ - `react-native-geo-locator`
  - `react-native-get-countries`
  - `react-native-ghn-ekyc`
+ - `react-native-ideo-rn-notifications`
  - `react-native-innity-2`
  - `react-native-innity-remaster`
  - `react-native-input-library`
@@ -430,6 +451,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `react-native-klarify-ios`
  - `react-native-klarify-ui`
  - `react-native-klc`
+ - `react-native-lazp-device-info`
  - `react-native-lib-test-rn-1`
  - `react-native-library-testing-422522`
  - `react-native-line-login-android`
@@ -439,7 +461,9 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `react-native-manh-test`
  - `react-native-manual-ios-sdk`
  - `react-native-modal-progress-bar`
+ - `react-native-module-arge`
  - `react-native-module-for-testing`
+ - `react-native-moosa-lib-for-test`
  - `react-native-multi-bluetooth-printer`
  - `react-native-multiplier-altroncoso`
  - `react-native-multiplier-component`
@@ -458,6 +482,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `react-native-nyx-printer`
  - `react-native-offline-notice`
  - `react-native-onramp`
+ - `react-native-opus`
  - `react-native-otp-custom-library`
  - `react-native-paynow-generator`
  - `react-native-payu-payment`
@@ -473,9 +498,12 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `react-native-responsive-helper`
  - `react-native-responsive-size`
  - `react-native-return-usb-data`
+ - `react-native-rn-app`
  - `react-native-rn-common-components-example`
  - `react-native-rn-icons-library`
+ - `react-native-rn-lib-custom-components`
  - `react-native-rn-tolkaplayer`
+ - `react-native-rn-tolkaplayer-dharmesh`
  - `react-native-rom-components`
  - `react-native-rtn-ips-poslin-test`
  - `react-native-s-airlines`
@@ -486,6 +514,7 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `react-native-scroll-tab-to-index`
  - `react-native-shared-gesture`
  - `react-native-sharing-intent`
+ - `react-native-sherpa-onnx-offline-tts`
  - `react-native-simple-timeline`
  - `react-native-sp-test-common`
  - `react-native-sunmi-printer-hk`
@@ -501,12 +530,12 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `react-native-test-view`
  - `react-native-ticker-tape`
  - `react-native-tilt-ble`
- - `react-native-tone-framework`
- - `react-native-tone-test`
  - `react-native-tones`
  - `react-native-transtracker-library`
+ - `react-native-uart-connection`
  - `react-native-ui-components-library`
  - `react-native-uvc-camera-android`
+ - `react-native-vanguard-sdk`
  - `react-native-version-app`
  - `react-native-volume-phisical`
  - `react-native-withframework-check`
@@ -530,10 +559,12 @@ If you are using this library in one of your projects, add it in this list. :spa
  - `sedanbosok`
  - `semantic-release-gitee`
  - `semantic-release-gitlab-plugin`
+ - `semantic-release-gitmoji-action`
  - `semantic-release-version`
  - `sm-versioning`
  - `smart_one_connect`
  - `styless-react`
+ - `sungrow_tcu`
  - `tehmusimhujan`
  - `test-haptik-lib`
  - `test-library-123`
